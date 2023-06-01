@@ -46,7 +46,7 @@ const ExperienceCard = ({ organisation, website, logo, location, roles, isMostRe
         <div className="text-center mb-4 md:my-4">
           <h3 className="text-3xl md:text-2xl">{organisation}</h3>
           <li className="text-md font-light list-none">{location}</li>
-          <li className="text-md list-none">{website}</li>
+          <li className="text-md list-none italic">{website}</li>
         </div>
       </div>
       <div>
