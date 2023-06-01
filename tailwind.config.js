@@ -16,6 +16,7 @@ module.exports = {
         darkSalmon: "#784450",
         darkSalmonTint: "#623741",
         linkBlue: "#023cbe",
+        borderColor: "#a8a29e80",
       }
     },
   },

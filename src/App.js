@@ -29,9 +29,9 @@ const App = () => {
   };
 
   const renderHeaderSection = () => (
-    <div className="flex flex-col gap-8 justify-between p-12 items-center bg-offWhite text-leafgreen drop-shadow-xl md:py-20 md:gap-4 md:flex-row lg:rounded-b-xl">
-      <div className="w-full md:w-auto">
-        <h1 className="text-[36px] md:mb-2">Jordan Bartholomew-Harrison</h1>
+    <div className="flex flex-col gap-8 justify-between py-12 px-4 items-center bg-offWhite text-leafgreen drop-shadow-xl md:px-12 md:py-20 md:gap-4 md:flex-row lg:rounded-b-xl">
+      <div className="w-full md:w-auto leading-tight">
+        <h1 className="text-[36px] mb-2">Jordan Bartholomew-Harrison</h1>
         <span className="text-2xl font-light block">Frontend Web Developer</span>
       </div>
       <div className="w-full shrink-0 md:w-auto">
@@ -99,7 +99,7 @@ const App = () => {
   );
   
   const renderExperienceSectionKey = () => (
-    <div className="absolute italic -translate-y-[65%] bg-white p-4 right-4 border-2 border-stone-300 border-dashed">
+    <div className="absolute italic -translate-y-[65%] bg-white p-4 right-4 border-2 border-borderColor border-dashed hidden md:block">
       <li className="list-none flex mb-2">
         <span className="block w-6 h-6 mr-1 bg-charcoal rounded-md" />: Main tech stack
       </li>

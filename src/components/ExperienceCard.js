@@ -22,7 +22,7 @@ const ExperienceCard = ({ organisation, website, logo, location, roles, isMostRe
   
   const renderRolesBreakdown = () => {
     return roles.map((role, index) => (
-      <div className={cx("border-stone-300 ", { "border-t pt-4 mt-8": index > 0 })}>
+      <div className={cx("border-borderColor", { "border-t pt-4 mt-8": index > 0 })}>
         <div className="mb-4">
           <h4 className="whitespace-nowrap font-light text-2xl">{role.title}</h4>
           {role.department && <span className="block text-md italic">Team: {role.department}</span>}
@@ -38,7 +38,7 @@ const ExperienceCard = ({ organisation, website, logo, location, roles, isMostRe
   }
 
   return (
-    <div className={cx("w-full mx-auto p-4 pt-6 pb-10 border-b-2 border-stone-300 border-dashed md:flex", { 'border-t-2': isMostRecent })}>
+    <div className={cx("w-full mx-auto p-4 pt-6 pb-10 border-b-2 border-borderColor border-dashed md:flex", { 'border-t-2': isMostRecent })}>
       <div className="relative md:w-1/4 md:shrink-0">
         <div className="flex items-center hidden md:block md:static md:w-[125px] md:h-auto md:mx-auto">
           <img src={logo} alt={`${organisation} logo`}/>
