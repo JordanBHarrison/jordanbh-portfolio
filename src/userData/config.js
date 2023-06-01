@@ -15,7 +15,7 @@ const config = {
                     "title": "Senior frontend developer",
                     "department": "Funding experience product",
                     "tech": {
-                        "stack": ["ReactJs", "NextJs", "Salesforce", "Tailwind", "Docker"],
+                        "stack": ["ReactJs", "NextJs", "Typescript" , "Salesforce", "Tailwind", "Docker"],
                         "testing": ["Jest"],
                         "ciTools": ["Jenkins"],
                     },
