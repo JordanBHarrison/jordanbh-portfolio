@@ -43,10 +43,10 @@ const ExperienceCard = ({ organisation, website, logo, location, roles, isMostRe
         <div className="flex items-center hidden md:block md:static md:w-[125px] md:h-auto md:mx-auto">
           <img src={logo} alt={`${organisation} logo`}/>
         </div>
-        <div className="text-center mb-4 md:my-4">
+        <div className="text-center mb-4 md:my-4 md:overflow-x-hidden">
           <h3 className="text-3xl md:text-2xl">{organisation}</h3>
           <li className="text-md font-light list-none">{location}</li>
-          <li className="text-md list-none italic">{website}</li>
+          <a href={website} className="text-sm md:text-xs list-none italic">{website}</a>
         </div>
       </div>
       <div>

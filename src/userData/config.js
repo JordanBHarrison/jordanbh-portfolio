@@ -7,7 +7,7 @@ const config = {
     "jobs": [
         {
             "organisation": "Wellcome Trust",
-            "website": "wellcome.org/",
+            "website": "https://wellcome.org/",
             "logo": "https://media.licdn.com/dms/image/C4E0BAQH_gIMEmm_hcw/company-logo_200_200/0/1668435561925?e=1692835200&v=beta&t=y6HohD17QrIJTjkSbClUTiBelFMD4rjLTq2_aZ0Xslg",
             "location": "Euston Square, London",
             "roles": [
@@ -32,7 +32,7 @@ const config = {
         },
         {
             "organisation": "The Telegraph",
-            "website": "www.telegraph.co.uk/",
+            "website": "https://www.telegraph.co.uk/",
             "logo": "https://media.licdn.com/dms/image/C560BAQExsJHQqe0rtA/company-logo_200_200/0/1662667478074?e=1692835200&v=beta&t=oCNZV4-vFBbCi_B5k9QdpacTiAlhXv0I9DOR2HKGxvU",
             "location": "Victoria, London",
             "roles": [
@@ -79,7 +79,7 @@ const config = {
         },
         {
             "organisation": "Sky",
-            "website": "www.sky.com/",
+            "website": "https://www.sky.com/",
             "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Sky_Group_logo_2020.svg/220px-Sky_Group_logo_2020.svg.png",
             "location": "Osterley, London",
             "roles": [
@@ -120,7 +120,7 @@ const config = {
         },
         {
             "organisation": "Qube global software",
-            "website": "mrisoftware.com/uk/",
+            "website": "",
             "logo": "https://play-lh.googleusercontent.com/BA0olxrk8UQA3gxZZOA2u5jcaTFiet0AEXttcZ0715DADs4NY3KToxgKtYJ0hydzixY",
             "location": "Mansion House, London",
             "roles": [

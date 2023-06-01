@@ -57,7 +57,7 @@ const App = () => {
       <div className="shrink-0 mb-10 md:mb-0 md:w-1/3">
         <div className="w-[220px] h-[220px] mx-auto rounded-full bg-profile-image bg-cover shadow-[inset_0_-2px_4px_rgba(0,0,0,0.6)]" />
       </div>
-      <p className="leading-relaxed text-xl font-light">
+      <p className="!leading-relaxed text-lg font-light md:text-xl">
         I'm an experienced full stack developer, specialising in developing frontend web applications in Javascript, always learning and making use of the latest React 
         and Javascript features. Experienced in using multiple testing methods from my time working with highly scalable, high traffic systems as well as smaller more
         cutting edge projects, where I have been heavily involved in driving the initial growth and direction of new products. I have experience working with a range of
