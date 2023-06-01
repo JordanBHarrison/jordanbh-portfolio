@@ -16,16 +16,16 @@ const config = {
                     "department": "Funding experience product",
                     "tech": {
                         "stack": ["ReactJs", "NextJs", "Salesforce", "Tailwind", "Docker"],
-                        "testing": [],
+                        "testing": ["Jest"],
                         "ciTools": ["Jenkins"],
                     },
-                    "summary": "Working as part of the Funding experience product team, building out the functionality of the Funding platform which allows users to apply and manage their applications for research funding. This platform was built to replace the functionality of an existing off the shelf software solution that Wellcome were previously using.",
+                    "summary": "Working as part of the Funding experience product team, building out functionality to allow users to apply and manage their applications for research funding in the pharmacutical and scientific industry. This platform was built to replace the functionality of an existing “off the shelf“ software solution that Wellcome were previously using.",
                     "keypoints": [
-                        "Lead work on essential features of the project and work closely with designers to give input on design decisions while keeping accessibility principles in mind.",
-                        "Joined the team working on the funding platform early in its development cycle through to product launch (Jan '23).",
-                        "Created a library of visual components allowing staff to create dynamic funding application forms with lots of visual components which are built to be responsive,intuitive and easy to use.",
+                        "Worked as part of the planning as well as the building of features essential to the project, this required me to work closely with designers to ensure we were keeping accessibility in mind.",
+                        "I actually joined the team pretty early into it's actual development and saw it through to product launch (Jan '23).",
+                        "Helped create a library of visual components allowing organisations to create dynamic funding application forms, built to be responsive, intuitive to use and accessible",
                     ],
-                    "from": "Apr 2022",
+                    "from": "Mar 2022",
                     "to": "Apr 2023" 
                 }
             ]
@@ -40,43 +40,17 @@ const config = {
                     "title": "Senior frontend developer",
                     "department": "Web",
                     "tech": {
-                        "stack": ["Javascript", "AEM (Adobe experience manager)", "Sass", "HTL (Sightly)" ],
+                        "stack": ["Vanilla Javascript", "Sass", "AEM (Adobe experience manager)", "HTL (Sightly)"],
                         "testing": ["Jest", "Cypress"],
                         "ciTools": ["CircleCI"],
                     },
-                    "summary": "",
+                    "summary": "Part of the Web team, I was involved with the BAU tasks for maintaining the frontend templates for all of the different article types that are available to The Telegraph's editors. But as well as this I was also involved in some more complex epics involving migrating to using a new commenting system and improving web app performance metrics",
                     "keypoints": [
-                        "Lead a project of a handful of developers which required us to decommission Adobe's livefyre commenting platform from telegraph articles and integrate with the new commenting platform provided by Viafoura. Leading this project proved to be rather complex as we ran into a number of issues which required us to debug production issues by working closely with developers from outside of the organisation to get it all working.",
-                        "Worked on smaller BAU projects such as “Web performance” in which we improved the key performance metrics on web and then set up automated tests to run as part of our deployment pipeline which ensures key metrics are not too negatively affected by new code merged in.",
-                        "Creating a vast range of new visual components within adobe experience manager to be used by the telegraph's many editors allowing them to create interesting and feature rich articles for the telegraph's audience.",
+                        "Due to the shutdown of Adobe's “Livefyre“ commenting platform, I was required to lead a small team of developers to integrate with a new commenting platform called “Viafora“. This change required us to not only update to using this new commenting system for new upcoming articles but also we had to ensure it was compatible with the full catalogue of articles available on the site. To achieve this seamlessly we followed a staggered rollout plan, category by category until the full archive of articles were using the new commenting system.",
+                        "Worked as part of a small team of developers to improve the key performance metrics on web and then set up automated tests to run as part of our deployment pipeline to ensure key metrics are not too negatively affected by new commits",
                     ],
                     "from": "Jan 2021",
                     "to": "Mar 2022" 
-                }
-            ]
-        },
-        {
-            "organisation": "SELF",
-            "website": "",
-            "logo": "",
-            "roles": [
-                {
-                    "title": "Owner",
-                    "department": "",
-                    "tech": {
-                        "stack": ["ReactJs", "Redux", "NodeJs", "Express", "Mongodb", "HTML5", "Sass", "GSAP (Animation)"],
-                        "testing": ["Jest", "Cucumber", "Backstop (Visual regression)"],
-                        "ciTools": [],
-                    },
-                    "summary": "",
-                    "keypoints": [
-                        "The platform is built upon an extremely modular architecture that makes it simple to switch in and out components and create bespoke versions of components for each client.",
-                        "The frontend is fully responsive and designed for mobile devices first and is highly efficient to ensure it displays consistently on the vast majority of web browsers.",
-                        "The backend api for this application is written in NodeJs, and like the frontend is built with modularity in mind so that 3rd party software such as payment providers and databases can be switched out for alternative solutions.",
-                        "The interface makes use of CSS animation efficiently to provide an intuitive UX experience, but balanced to still ensure compatibility and fast page load times.",
-                    ],
-                    "from": "Feb 2020",
-                    "to": "" 
                 }
             ]
         },
@@ -90,12 +64,14 @@ const config = {
                     "title": "Senior Frontend Developer",
                     "department": "Frontend team",
                     "tech": {
-                        "stack": ["ReactJs", "Redux", "GatsbyJs", "HTML5", "Sass"],
+                        "stack": ["ReactJs", "Redux", "GatsbyJs", "Sass"],
                         "testing": ["Cucumber", "Jest", "Browserstack"],
-                        "ciTools": [],
+                        "ciTools": ["Jenkins"],
                     },
-                    "summary": "Building essential functionality for the customer facing application to allow users to register and create a new business integrated with companies house as part of the process for the user purchasing property through their newly created business",
-                    "keypoints": [],
+                    "summary": "Building essential functionality for the customer facing application to allow users to register and create a new business integrated with companies house as part of the process to purchase property through their newly created company",
+                    "keypoints": [
+                        "Joined GetGround's frontend team early in the product's development allowing me and another frontend developer to decide on the tech stack and team ways of working as the frontend team grew.",
+                    ],
                     "from": "Aug 2019",
                     "to": "Feb 2020" 
                 }
@@ -111,16 +87,15 @@ const config = {
                     "title": "Frontend developer",
                     "department": "NowTv International Web sales and service",
                     "tech": {
-                        "stack": ["ReactJs", "Redux", "Webpack", "Docker", "Kubernetes", "Concourse", "HTML5", "Sass"],
-                        "testing": ["Cucumber", "Jest", "Browserstack", "Chromedriver", "Backstop", "Custom synthetics monitoring", "Cypress"],
-                        "ciTools": [],
+                        "stack": ["ReactJs", "React Hooks", "Webpack", "Sass"],
+                        "testing": ["Cypress", "Browserstack", "Backstop", "Custom synthetics monitoring"],
+                        "ciTools": ["Concourse", "Docker", "Kubernetes"],
                     },
                     "summary": "During my time on this team I worked on the NowTv sales and service platform, which includes the Shop, Checkout, Billing and all of the Account view section of the NowTv web application.",
                     "keypoints": [
-                        "I often worked with our team's UX designer to create wireframes in Zeplin for new functionality on the web app. TDD was used to ensure full test coverage and pull requests were approved by at least two other devs before deploying to staging etc.",
-                        "Although the application was initially developed to be used in the UK and Ireland, whilst on this team, new propositions of NowTv were being planned to be rolled out in a number of new territories, which came with handling different languages, functionality rules and completely independent styling for each new proposition (Spain, Austria and the US).",
-                        "To assist in the delivery of this we set up a continuous delivery pipeline, originally designed in Jenkins and later migrated it into concourse to align with the rest of the international NowTv teams.",
-                        "Due to the risk of lost sales during high volume events, uptime and testing were of high importance while working on features around the e-commerce shop, so to alert us to customer facing bugs in real time we built a custom synthetics monitoring app (similar to the New Relic synthetic style monitoring system..but free!) so that we were often able to fix bugs before we saw a spike in complaints from real users.",
+                        "Although the application was initially developed to be used in the UK and Ireland, whilst on this team, new propositions of NowTv were being planned to be rolled out in a number of new locales (Spain, Austria and the US). Each different version of the application had different languages, copy, functionality rules and completely independent styling .",
+                        "To assist in the delivery of the multiple versions of NowTV in each locale, we set up a continuous delivery pipeline, originally designed in Jenkins and later migrated it into concourse to align with the rest of the international NowTv teams.",
+                        "Due to the risk of lost sales during high volume events, uptime and testing were of high importance, to alert us to customer facing bugs in real time we built a custom synthetics monitoring app (similar to the New Relic synthetic style monitoring system..but free!) so that we were often able to fix bugs before we saw a spike in complaints from real users.",
                     ],
                     "from": "Mar 2016",
                     "to": "Aug 2019" 
@@ -129,12 +104,15 @@ const config = {
                     "title": "Associate Developer",
                     "department": "CIS Tech Futures",
                     "tech": {
-                        "stack": ["ReactJs", "Redux", "Clojure", "Clojurescript", "NodeJs", "Jenkins", "Docker", "Riak", "HTML5", "Sass", "Datadog", "Google cloud platform"],
-                        "testing": [],
-                        "ciTools": [],
+                        "stack": ["ReactJs", "Redux", "Clojure", "Clojurescript", "NodeJs", "Riak (NoSQL database)", "Sass"],
+                        "testing": ["Jest", "Cucumber", "Datadog"],
+                        "ciTools": ["Jenkins", "Docker"],
                     },
-                    "summary": "Working on a small team where we worked on many small projects prototyping new web applications for (mostly) the marketing teams within sky. This consisted mostly of creating e-commerce style applications, for when Marketing departments needed to promote or take initial pre-orders for their new products. Although working as a full stack developer in this role I was often responsible for handling the frontend interfaces and working with our designers to plan out wireframes for the projects. During my time on this team one project that we prototyped that because hugely successful was when we created the initial MVP web application which allowed users of Sky’s OTT service (NowTv), to log in to this new external site with their NowTv credentials and have access to view the live Sky Sports Box Office stream for the Anthony Joshua vs. Dillian Whyte fight.",
-                    "keypoints": [],
+                    "summary": "Working on a small team where we worked on many small projects prototyping new web applications for (mostly) the marketing teams within sky. This consisted mostly of creating e-commerce style applications, for when Marketing departments needed to promote or take initial pre-orders for their new products.",
+                    "keypoints": [
+                        "Although working as a full stack developer in this role I was often responsible for handling the frontend interfaces and working with our designers to plan out wireframes for the projects",
+                        "During my time on this team one project that we prototyped that was used by a large number of users was when we created a web application to allow users of Sky's OTT service (NowTv) to purchase and view the live Sky Sports Box Office stream for the Anthony Joshua vs. Dillian Whyte fight. Being a highly popular event this site had to support a very large concurrent user base but luckily went as smoothely as we could've wished for.",
+                    ],
                     "from": "Dec 2014",
                     "to": "Mar 2016" 
                 }
@@ -160,6 +138,24 @@ const config = {
                     "to": "Dec 2014" 
                 }
             ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "Content by clouded",
+            "tech": {
+                "stack": ["ReactJs", "React Hooks", "NodeJs", "Express", "Mongodb", "Sass", "GSAP (Animation)"],
+                "testing": ["Jest", "Cucumber", "Backstop (Visual regression)"],
+                "ciTools": [],
+            },
+            "summary": "A creator focussed content streaming and e-commerce platform that allows creators to host their video content to the public and integrate it with VAST ads to earn revenue from the views on their content. The platform also has an built in e-commerce section allowing creators to take payments, manage stock levels and manage discount codes etc.",
+            "keypoints": [
+                "The platform is built upon an extremely modular architecture that makes it simple to switch in and out components and create bespoke versions of components for each client.",
+                "The frontend is fully responsive and designed for mobile devices first and is highly efficient to ensure it displays consistently on the vast majority of web browsers.",
+                "The backend api for this application is written in NodeJs, and like the frontend is built with modularity in mind so that 3rd party software such as payment providers and databases can be switched out for alternative solutions.",
+                "The interface makes use of CSS animation efficiently to provide an intuitive UX experience, but balanced to still ensure compatibility and fast page load times.",
+            ],
+            "started": "Feb 2020",
         }
     ]
 }
