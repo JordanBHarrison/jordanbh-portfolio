@@ -17,6 +17,9 @@ module.exports = {
         darkSalmonTint: "#623741",
         linkBlue: "#023cbe",
         borderColor: "#a8a29e80",
+        gold: "#e6b95f",
+        goldTint: "#b3a36c",
+        goldHighlight: "#e6cc70",
       }
     },
   },

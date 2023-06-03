@@ -157,6 +157,23 @@ const config = {
             ],
             "started": "Feb 2020",
         }
+    ],
+    "topSkills": [
+        {
+            name: "ReactJs",
+            experienceYears: 7,
+            skillStrength: 10
+        },
+        {
+            name: "UI Development",
+            experienceYears: 9,
+            skillStrength: 8
+        },
+        {
+            name: "NodeJs",
+            experienceYears: 4,
+            skillStrength: 6
+        }
     ]
 }
 

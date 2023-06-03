@@ -4,29 +4,6 @@ import { SocialIcon } from 'react-social-icons';
 import SkillsWidget from './components/SkillsWidget';
 
 const App = () => {
-  const skillsWidgetConfig = {
-    techExperience: [
-      {
-        name: "ReactJs",
-        experienceYears: 10,
-        skillStrength: 9,
-        forceHighlight: false,
-      },
-      {
-        name: "NodeJs",
-        experienceYears: 4,
-        skillStrength: 5,
-        forceHighlight: false,
-      },
-      {
-        name: "Javascript and HTML5",
-        experienceYears: 12,
-        skillStrength: 9,
-        forceHighlight: false,
-      }
-    ],
-    topSkills: ['']
-  };
 
   const renderHeaderSection = () => (
     <div className="flex flex-col gap-8 justify-between py-12 px-4 items-center bg-offWhite text-leafgreen drop-shadow-xl md:px-12 md:py-20 md:gap-4 md:flex-row lg:rounded-b-xl">
@@ -132,7 +109,7 @@ const App = () => {
       <div className="max-w-screen-lg mx-auto text-leafGreen">
         {renderHeaderSection()}
         {renderProfileSection()}
-        {/* {<SkillsWidget topSkills={skillsWidgetConfig.topSkills} techExperience={skillsWidgetConfig.techExperience} />} */}
+        {/* {<SkillsWidget topSkills={config.topSkills} />} */}
         {renderExperienceSection()}
         {/* {renderProjectsSection()} */}
         {renderEducationSection()}
